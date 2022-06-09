@@ -1,0 +1,12 @@
+po_generator:
+  driver_path: ""
+  teardown: True #close browser after running
+  log: "logs/log.txt" #logging file for this run
+  suppress_window: True #broswer prompt
+data_generator:
+  num_items: 3
+  max_qty: 50
+  split: [0.33, 0.33, 0.33] #catch wgt, code date, none
+
+run:
+  num_pos: 2
